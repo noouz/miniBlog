@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>留言板</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <h1>
+            <a href="#">首頁</a>
+        </h1>
+
+        <ul class="user">
+            <li class="user-icon">
+                <a href="#">
+                    <img src="https://images.pexels.com/photos/1037994/pexels-photo-1037994.jpeg" alt="icon"></img>
+                </a>
+            </li>
+            <li class="user-name">
+                <a href="#"></a>
+            </li>
+            <li class="user-logOut">
+                <!-- <span>登出</span> -->
+                <span class="material-symbols-outlined">logout</span>
+            </li>
+        </ul>
+    </nav>
+    <header class="header mb20">
+        <div class="edit">
+            <div class="userIcon">
+                <img src="https://via.placeholder.com/70x70" alt="icon">
+            </div>
+            <div class="edit-text">
+                <input type="text" name="title" id="title" placeholder="文章標題" >
+                <input type="date" name="date" id="date" >
+                <textarea name="post" id="post" cols="100" rows="10" placeholder="今天要分享什麼?" ></textarea>
+            </div>
+
+        </div>
+        <button class="enter" type>發布</button>
+    </header>
+    <main class="main">
+        <span class="tip">這裡還尚未有文章...</span>
+        <!-- <div class="post">
+            <div class="article">
+                <h2>文章標題</h2>
+                <span>2024-02-17</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates commodi pariatur saepe doloribus
+                    aliquam reprehenderit dolor asperiores architecto ab minus. commodi pariatur saepe doloribus aliquam
+                    reprehenderit dolor asperiores architecto ab minus. commodi pariatur saepe doloribus aliquam
+                    reprehenderit dolor asperiores architecto ab minus. commodi pariatur saepe doloribus aliquam
+                    reprehenderit dolor asperiores architecto ab minus.</p>
+            </div>
+            <ul class="comment">
+                <div class="comment-action">
+                    <div class="icon">
+                        <img src="https://via.placeholder.com/50x50" alt="icon">
+                    </div>
+                    <input type="text" name="comment" id="comment">
+                    <button type="button" class="cmEnter">送出</button>
+                </div>
+                <li class="comment-item">
+                    <div class="comment-item-text">
+                        <div class="icon">
+                            <img src="https://via.placeholder.com/50x50" alt="icon">
+                        </div>
+                        <span>It is too bad.</span>
+                    </div>
+                    <div class="comment-item-text">
+                        <div class="icon">
+                            <img src="https://via.placeholder.com/50x50" alt="icon">
+                        </div>
+                        <span>It is too bad.</span>
+                    </div>
+                </li>
+
+            </ul>
+        </div> -->
+    </main>
+
+    <script src="./js/all.js"></script>
+</body>
+
+</html>

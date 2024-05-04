@@ -250,3 +250,22 @@ img {
   min-width: 45px;
   height: 45px;
 }
+
+@media screen and (max-width: 600px) {
+  .header .edit .userIcon {
+    width: 50px;
+    height: 50px;
+  }
+  .header .edit .userIcon a, .header .edit .userIcon img {
+    min-width: 50px;
+    height: 50px;
+  }
+  .main .post .comment-action .icon img {
+    min-width: 30px;
+    height: 30px;
+  }
+  .main .post .comment-item-text div.icon img {
+    min-width: 30px;
+    height: 30px;
+  }
+}

@@ -54,6 +54,7 @@ body {
 form{
     background-color: $bg-color;
     width: 35%;
+    min-width: 380px;
     padding: 30px 35px;
     border-radius: 5px;
     box-shadow: 0 2px 3px $shadow-color;
